@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #111827;
@@ -73,5 +77,32 @@ footer {
     text-align: center;
     padding: 20px;
     background: #0f172a;
+    color: white;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #0f172a;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
     color: white;
 }
